@@ -9,7 +9,6 @@ const App = () => {
 
   const fetchWeather = async () => {
     if (!city.trim()) return;
-
     setLoading(true);
     setError("");
     try {
